@@ -1,0 +1,3 @@
+include:
+  project: kube/images/hubble
+  file: push.yaml
