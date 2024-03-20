@@ -1,0 +1,3 @@
+server = "https://registry-1.docker.io" # Exclude this to not use upstream
+[host."https://xxxdocker-mirror.toolbox.aws.signintra.com"]
+capabilities = ["pull", "resolve"]
