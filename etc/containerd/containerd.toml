@@ -1,1 +1,2 @@
-disabled_plugins = ["cri"]
+#disabled_plugins = ["cri"]
+debug = true

@@ -2,7 +2,7 @@
 FROM debian:unstable
 
 RUN apt-get update && apt-get install -y \
-    git containerd supervisor \
+    git containerd supervisor procps \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --link etc /etc
